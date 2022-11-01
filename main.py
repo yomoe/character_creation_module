@@ -64,6 +64,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
+    """Make your choice character class."""
     approve_choice: str = None
     char_class: str = None
     while approve_choice != 'y':
@@ -86,6 +87,7 @@ def choice_char_class() -> str:
 
 
 def main() -> None:
+    """Say Hello."""
     if __name__ == '__main__':
         run_screensaver()
 
